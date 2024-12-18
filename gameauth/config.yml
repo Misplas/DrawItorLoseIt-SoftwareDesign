@@ -1,0 +1,14 @@
+logging:
+  level: INFO
+  loggers:
+    com.gamingroom: DEBUG
+
+httpClient:
+  timeout: 100ms
+  connectionTimeout: 1000ms
+  timeToLive: 1h
+  cookiesEnabled: true
+  maxConnections: 1024
+  maxConnectionsPerRoute: 1024
+  keepAlive: 0ms
+  retries: 0
